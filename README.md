@@ -1,5 +1,5 @@
 <h1 align=center>E-Commerce Website with Django + React & Redux</h1>
-<h2 align=center>Game Over  - the best product shop </h2>
+<h2 align=center>Game Over  - the best products shop </h2>
 
 
 
