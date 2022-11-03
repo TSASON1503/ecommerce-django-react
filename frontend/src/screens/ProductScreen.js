@@ -92,9 +92,7 @@ function ProductScreen({ match, history }) {
           <Row>
             <Col md={6}>
               <Image src={product.image} alt={product.name} fluid />
-            </Col>
 
-            <Col md={3}>
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <h3>{product.name}</h3>
@@ -117,7 +115,11 @@ function ProductScreen({ match, history }) {
             </Col>
 
             <Col>
-              <Card>
+              <Card  
+              style={{
+                height: '200px',
+                width: '50%'
+              }}>
                 <ListGroup variant="flush">
                   <ListGroup.Item>
                     <Row>

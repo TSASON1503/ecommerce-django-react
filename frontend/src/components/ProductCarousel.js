@@ -33,7 +33,10 @@ function ProductCarousel() {
     <Message variant="danger">{error}</Message>
   ) : (
     
-    <Carousel pause="hover" className="Carousel">
+    <Carousel pause="hover" className="Carousel" 
+    style={{
+      border: '3px solid rgba(201, 76, 76, 0.3)',
+    }}>
       {products.map((product) => (
         
         <Carousel.Item key={product._id}>

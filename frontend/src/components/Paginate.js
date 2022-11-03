@@ -20,7 +20,7 @@ function Paginate({ page, pages, keyword = "", isAdmin = false }) {
 
   return (
     pages > 1 && (
-      <Pagination>
+      <Pagination className="mt-3 d-flex justify-content-center">
         {[...Array(pages).keys()].map((x) => (
           <LinkContainer
             key={x + 1}
