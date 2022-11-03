@@ -1,5 +1,5 @@
 <h1 align=center>E-Commerce Website with Django + React & Redux</h1>
-<h2 align=center>Game Over  - the best product shop </h2>
+<h2 align=center>Game Over  - the best products shop </h2>
 
 
 
@@ -7,12 +7,12 @@
 
 ```shell
 1 Clone The repo or download zip (than extract)
-2 cd backend
-3 python -m venv env
-4 .\env\Scripts\activate
-5 cd back to ecommerce-django-react
-5 pip install -r requirements.txt (please note that the file is in the main folder)
-6 python manage.py runserver     (please note that the file is in the main folder)
+2 python -m virtualenv myenv
+3 .\myenv\Scripts\activate
+4 pip install -r requirements.txt (please note that the file is in the main folder be sure you got all install ) 
+5 python manage.py runserver  (please note that the file is in the main folder)
+6 open another terminal for frontend 
+7. cd to frontend  --> npm start 
 
 ```
 
