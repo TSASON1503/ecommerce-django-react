@@ -67,3 +67,34 @@ h2 {
     color: white;
   }
 }
+
+/* Social media */
+
+.social-container {
+  background: #eee;
+  padding: 10px 300px ;
+  margin: auto;
+  width: 50%;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.linkedin {
+  color: #f08c;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+
+
+

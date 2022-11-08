@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 /* REACT BOOTSTRAP */
 import { Container } from "react-bootstrap";
 
@@ -19,17 +21,17 @@ import UserEditScreen from "./screens/UserEditScreen";
 import ProductListScreen from "./screens/ProductListScreen";
 import ProductEditScreen from "./screens/ProductEditScreen";
 import OrderListScreen from "./screens/OrderListScreen";
+import SocialFollow from "./components/SocialFollow";
 
 /* REACT ROUTER */
 import { HashRouter as Router, Route } from "react-router-dom";
-import { useState } from "react";
 
 function App() {
   return (
     <Router>
       <Header />
       <Container>
-        <main className="py-3" >
+        <main className="py-3">
           <Route exact path="/" component={HomeScreen} />
 
           <Route path="/login" component={LoginScreen} />
@@ -61,6 +63,7 @@ function App() {
           <Route path="/admin/orderlist" component={OrderListScreen} />
         </main>
       </Container>
+      <SocialFollow />
       <Footer />
     </Router>
   );

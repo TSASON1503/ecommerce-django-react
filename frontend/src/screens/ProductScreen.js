@@ -89,7 +89,12 @@ function ProductScreen({ match, history }) {
         <Message variant="danger">{error}</Message>
       ) : (
         <div>
-          <Row>
+          <Row 
+          style={{
+            margin: 'auto',
+            width: '100%',
+            padding: '10px'
+            }}>
             <Col md={6}>
               <Image src={product.image} alt={product.name} fluid />
 
@@ -108,7 +113,12 @@ function ProductScreen({ match, history }) {
 
                 <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
 
-                <ListGroup.Item>
+                <ListGroup.Item
+                style={{
+                  margin: 'auto',
+                  width: '150%',
+                  padding: '30px'
+                }}>
                   Description: {product.description}
                 </ListGroup.Item>
               </ListGroup>
@@ -117,6 +127,7 @@ function ProductScreen({ match, history }) {
             <Col>
               <Card  
               style={{
+                margin: 'auto',
                 height: '200px',
                 width: '50%'
               }}>
@@ -177,7 +188,12 @@ function ProductScreen({ match, history }) {
             </Col>
           </Row>
 
-          <Row>
+          <Row 
+            style={{     
+              margin: 'auto',
+              width: '100%',
+              padding: '10px'
+              }}>
             <Col md={6}>
               <h4 className="mt-3">Reviews</h4>
 

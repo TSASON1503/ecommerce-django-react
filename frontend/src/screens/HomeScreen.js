@@ -44,7 +44,7 @@ function HomeScreen({ history }) {
       ) : error ? (
         <Message variant="danger">{error}</Message>
       ) : (
-        <div >
+        <div>
           <Row>
             {products.map((product) => {
               return (
